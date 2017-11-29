@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zipf Algorithm</title>
+    <link rel="stylesheet" href="css/zipf.css" />
+    <script src="js/grams4.js"></script>
+    <script src="js/words.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>
+  </head>
+  <body>
+    <h1>Zipf Algorithm</h1>
+    <div id="length-container">
+      <p class="length-p">Length: <span id="plain-length">0</span></p>
+      <p class="length-p">Length: <span id="compressed-length">0</span></p>
+    </div>
+    <textarea id="plain-input" placeholder="Plain Text"></textarea>
+    <textarea id="compressed-input" placeholder="Compressed" spellcheck="false"></textarea>
+    <p id="saved-p">Space Saved: <span id="space-saved"><b style='color:white;background-color:black;padding:2px;'>0%</b> in 0ms (0kbps)</span></p>
+    <script src="js/zipf.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
