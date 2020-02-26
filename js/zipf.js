@@ -141,6 +141,7 @@ Array.prototype.cleanArr = function(deleteValue) {
 };
 
 function logGram(str) {
+  /*
   var temp = str.split(" ");
   for (var i = 0; i < temp.length; i++) {
     temp[i] = temp[i].length;
@@ -155,6 +156,7 @@ function logGram(str) {
   console.log(arr);
   console.log(arr[maxIndex].normal);
   console.log(res[maxIndex]);
+  */
 }
 
 function indexOfMax(arr) {
